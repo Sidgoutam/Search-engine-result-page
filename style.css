@@ -1,0 +1,138 @@
+/****************** Keywords **********************/
+.heading{
+    color: mediumblue;
+}
+.heading:hover{
+    color: mediumblue;
+}
+ul{
+    margin-left: 7.5rem;
+}
+
+ul li{
+   display: inline-block;
+    margin-right: 1rem;
+}
+
+ul li a{
+    color: grey;
+}
+
+.settings{
+    margin-left: 10rem;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid blue;
+}
+
+i{
+    margin-right: .5rem;
+}
+
+.hr{
+    margin: 1rem 0;
+    background-color: skyblue;
+    height: 1px;
+    width: 94.5rem;
+}
+
+.res3{
+    margin-left: -2.5rem;
+}
+.tabsres3{
+    color: darkblue;
+}
+.tabsres3:hover{
+    color: darkblue;
+    padding-bottom: .5rem;
+}
+
+.navigate:hover{
+    text-decoration: none;
+}
+/********************** Icons **********************/
+.googleimg{
+    width: 7rem;
+    margin: 1.5rem;
+}
+
+.microphone{
+    margin-top: 5px;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.searchicon{
+    font-size: 1.4rem;
+    color: royalblue;
+    margin: .3rem;
+    margin-left: -1rem;
+}
+
+.apps{
+    margin-top:  2.5rem;
+    margin-right: 12rem;
+    float: right;
+    color: grey;
+    font-size: 1.25rem;
+}
+
+/*********************** Containers ******************/
+/* Search container */
+form {
+  display:flex;
+  flex-direction:row;
+    border: 1px solid blue;
+    width: 50rem;
+    height: 3rem;
+    margin-left: 10rem;
+    position: absolute;
+    top: 25px;
+}
+
+.search{
+    flex-grow: 2;
+    border:none;
+}
+
+
+form:hover{
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.2);
+}
+
+.btn{
+    background-color: white;
+}
+
+.vr{
+    margin: 5px 1px;
+    width:1px;
+    background-color:grey;
+}
+
+.results{
+    margin-bottom: 2.5rem;
+    margin-left: 10rem;
+}
+
+.pageindex{
+    text-align: center;
+}
+
+/********************** Buttons **********************/
+
+.signinbtn{
+    background-color: royalblue;
+    color: white;
+    margin-top:  1.7rem;
+    margin-right: -10rem;
+    float: right;
+    border-right: 2px;
+    width: 120px;
+    height: 2.5rem;
+}
+
+/********************* Links *************************/
